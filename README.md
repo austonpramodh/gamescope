@@ -1,3 +1,6 @@
+## Just a copy and testing ground for my personal computer. Feel free to testout.
+
+
 ## gamescope: the micro-compositor formerly known as steamcompmgr
 
 In an embedded session usecase, gamescope does the same thing as steamcompmgr, but with less extra copies and latency:
@@ -89,3 +92,14 @@ Pull requests for improving Reshade compatibility support are appreciated.
 ## Status of Gamescope Packages
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/gamescope.svg)](https://repology.org/project/gamescope/versions)
+
+
+## Docker build commands
+
+this runs on fedora, Not sure of other distros, need testing.
+
+```
+docker build --output=. --target=gamescope-bin .
+
+./bin/gamescope
+```
